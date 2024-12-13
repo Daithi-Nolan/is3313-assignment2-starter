@@ -25,7 +25,5 @@ class Calculator:
 
     def modulus(self, a, b):
         """Calculates the modulus of two numbers and returns the result."""
-         if b == 0:
-            raise ValueError("The divisor 'b' cannot be zero.")
         return a % b
 
